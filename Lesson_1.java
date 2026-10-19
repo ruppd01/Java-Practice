@@ -15,6 +15,7 @@ public class Lesson_1 {
         //   ^^^^^  When naming varibles, try to keep it relevent
 
         double number = 3.14; //Stores numbers up to 15 decimal places
+        //     ^^^^^  Note: The yellow underline is a warning that you are not using this varible. Your code will continue to run as normal.
         float worseNumber = 5.91f; //Stores numbers up to 7 decimal places, and must have a 
                                    //f at the end of the number to tell java that it is a float
         

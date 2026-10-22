@@ -83,10 +83,5 @@ public class Challenge_4 {
 
 
 
-    /* Once you have completed the both challenges, you can move on to lesson 5.
-    
-    Unfortunately this is the end for now.
-    Lesson 5 will be available soon, but for now I need to demo this to make sure it works!
-    
-    My hope is after testing to create 2 lessons and 1 challenege a week*/
+    // Once you have completed the both challenges, you can move on to lesson 5.
 }

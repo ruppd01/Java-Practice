@@ -6,9 +6,9 @@ public class Lesson_1 {
         //-------Introduction and Variables-------
         
         /* This is where you will learn the basics of java.
-        Your lead should be able to help with the rest. */
+        Your lead should be able to help with the rest. 
 
-        /* To start off, we need to make a varible.
+        To start off, we need to make a varible.
         A varible stores a piece of data weather its a number, sentance, or letter.
         But, the program also needs you to declare what type of varible that is going to be.
         So, here are the important ones that you are going to need to know. */
@@ -25,13 +25,11 @@ public class Lesson_1 {
 
         double doubleFrac = integer/2.0; //When executed, it will = 1.5 as it converts the int to a double
 
-        //Note: int can be coverted to doubles, but doubles cannot be converted to int
-        //Note: int's will always convert to a double unless you specify otherwise
-        //ex:
-        float floatFrac = integer/2.0f;
+        /* ints can be coverted to doubles, but doubles cannot be converted to ints
+        Note: int's will always convert to a double unless you specify otherwise
+        ex:*/ float floatFrac = integer/2.0f;
 
-        //Note: The less varibles have to keep track of, the less space it will take up.
-        //int uses up 4 bytes while a double uses up 8 bytes
+        //Note: ints use up 4 bytes while a double uses up 8 bytes
 
         String sentance = "Hello World 1+1=2"; //Stores numbers and letters as if it were a sentance
         //Strings must always be put in double quotes

@@ -20,9 +20,9 @@ public class Challenge_5a {
     
     public int[] inputArray(int numInputs) {
         Scanner scnr = new Scanner(System.in);
-        int userList[] = new int[numInputs];
+        int userList[] = new int[numInputs]; //Creates an array of length numInputs
    
-        for(int i = 0; i < numInputs; i++){
+        for(int i = 0; i < numInputs; i++){ //Used to set each index of the array to a integer imputed
             userList[i] = scnr.nextInt();
         }
         return userList;

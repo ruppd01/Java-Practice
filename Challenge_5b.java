@@ -5,7 +5,7 @@ public class Challenge_5b {
         Scanner scnr = new Scanner(System.in);
 
         /* This is the class where you will run you code through.
-        The following challenegs will requuire you to call in methods from Challenge_5a.
+        The following challenge will requuire you to call in methods from Challenge_5a.
         
         You have already created the necessary objects and methods. 
         Now you will have to call those methods in to perform the required tasks.
@@ -18,7 +18,11 @@ public class Challenge_5b {
         - Call in the sumArray method to print out and label the sum of the array given from the highLow method.
         - Call in the averageArray method to print out and label the average of the array given from the hgihLow method.
         
-        The first task is already completed for you. */
+        The first task is already completed for you. 
+        
+        Note: When testing your code, the first imput must be from 1-20. 
+        This will determine how many interger will go into the array. Then click Enter.
+        Once on the next line, enter the integers that would go into each index of the array. */
 
         Challenge_5a methods = new Challenge_5a(); //This creates an object called input from the class Challenge_5a.
         

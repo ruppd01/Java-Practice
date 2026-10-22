@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Challenge_4 {
     public static void main(String[] args){
+        Scanner scnr = new Scanner(System.in);
        /* Now that you have learned about methods and debugging, we are going to put it to the test. 
        
        Given the following code, there are several issues that need to be fixed. 
@@ -14,7 +17,9 @@ public class Challenge_4 {
        1, 4, 9, 16, 25, 36, 49, 64, 81, 100,
 
        Note: some fixes that are unintended might cause other issues that would need to be solved.
-       This also means there is more than one way to solve many of the issues presentoed. */
+       This also means there is more than one way to solve many of the issues presented.
+       
+       The issues bellow must be resolved in order to run the next challenege */
 
        System.out.println("while loops: ");
        
@@ -58,16 +63,20 @@ public class Challenge_4 {
 
 
 
-       /* Given the below starting code, write a method that takes in 6 integers and returns the age of a person.
-
-       The program should remain true for any date, so it should be able to calculate the age of a person based on their birthdate and the current date.
+        /* Given the below starting code, write a method that takes in 6 integers and returns the age of a person.
        
-       Note: this is a simplified calculation and does not account for leap years or exact birth times. */
+        If the input is 7 1 2000 2 15 2015, the output is 14 (because the person hasn't yet reached their 15th birthday). 
+        A person less than 1 has age 0.
 
-       int birthMonth = 10, birthDay = 15, birthYear = 1990;
-       int currMonth = 10, currDay = 15, currYear = 2026;     
+        Note: this is a simplified calculation and does not account for leap years or exact birth times. */
+        
+        int birthMonth, birthDay, birthYear;
+        int currMonth, currDay, currYear;     
 
-       System.out.println(getAge(birthMonth, birthDay, birthYear, currMonth, currDay, currYear)); 
+        birthMonth = scnr.nextInt(); birthDay = scnr.nextInt(); birthYear = scnr.nextInt(); 
+        currMonth = scnr.nextInt(); currDay = scnr.nextInt(); currYear = scnr.nextInt();   
+
+        System.out.println(getAge(birthMonth, birthDay, birthYear, currMonth, currDay, currYear)); 
     }   
 
     //---enter code here---

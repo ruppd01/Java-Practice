@@ -1,10 +1,12 @@
+import java.util.Scanner;
+
 public class Lesson_1 {
     public static void main(String[] args){
         
         //-------Introduction and Variables-------
         
-        /* Hello RoboCats! This is where you will learn the basics of java.
-        They your lead should be able to help with the rest. */
+        /* This is where you will learn the basics of java.
+        Your lead should be able to help with the rest. */
 
         /* To start off, we need to make a varible.
         A varible stores a piece of data weather its a number, sentance, or letter.
@@ -60,9 +62,31 @@ public class Lesson_1 {
         - Change one of the num# variables to a double
         
         Note: By making just average a double, it will only print as 4.0 as the math is initially done and stored as an int
+
+        -----------------------------------------------------------------
+
+        This next section is not important to understanding java but will help will the learning experience.
+
+        We will create what is called a scanner. This will allow us to take in user input and use it in our program.
+        We will use this to take in the 3 numbers from the user instead of hard coding them in. 
+        This will allow you to test our program with different numbers without having to change the code each time.
+
+        How the scanner works is something that will be explained more as the lessons continue.
+        For now, How the scanner is created will be done for you until an understanding is developed.
+        */
+
+        Scanner scnr = new Scanner(System.in); //This creates a new scanner object that will take in user input.
+        //      ^^^^ This is the name of the scanner object. You can name it whatever you want.
+
+        int num1 = scnr.nextInt(); //This will take in the next integer that the user inputs and assign it to num1.
+        int num2 = scnr.nextInt(); //This will take in the next integer that the user inputs and assign it to num2.
+
+        System.out.println(num1 + num2); //This will print out the sum of num1 and num2.
                   
+        /* Try to run the program and input 5 and 2 into the terminal. It should print out 7.
+        
         Feel free to mess around with this a little bit longer until you are confortable with varibles.
-        Then, move on to Test 2 to learn about basic commands. */
+        Then, move on to Lesson 2 to learn about basic commands. */
         
     }
 }

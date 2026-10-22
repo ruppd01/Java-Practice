@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class Lesson_2 {
     public static void main(String[] args){
+        Scanner scnr = new Scanner(System.in);
 
         //-------Commands-------
 
@@ -66,7 +69,20 @@ public class Lesson_2 {
         }
         /* This fundamentally works the same as the while loop.
         In this case as they will execute the same actions, just in different ways. 
+
+        ---------------------------------------------------------------------------
+
+        There are many commands that follow using the scanner as well.
+        These include: */
+        int num1 = scnr.nextInt(); //This will take in the next integer that the user inputs and assign it to num1.
+        double num2 = scnr.nextDouble(); //This will take in the next double that
+
+        String str1 = scnr.next(); //This will take in the next string that the user inputs and assign it to str1.
+        String str2 = scnr.nextLine(); //This will take in the next line that the user inputs and assign it to str2. 
+        // This will take in the entire line, including spaces while just using next() will only take in the first word.
+
+        char char1 = scnr.next().charAt(0); //This will take in the next character that the user inputs and assign it to char1.
         
-        Once you feel you have a good understanding of these concepts, move on to Challenge 2 to practice them. */
+        /* Once you feel you have a good understanding of these concepts, move on to Challenge 2 to practice them. */
     }
 }

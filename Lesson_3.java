@@ -28,13 +28,17 @@ public class Lesson_3 {
         /* Heres a quick breakdown of a method.
         Methods can either be public or private. 
         Public methods can be called from anywhere in the program, while private methods can only be called from within the same class.
+        Thus, if you want to use a method in another class, it must be public.
 
         Methods can also be static or non-static.
         Static methods can be called without creating an instance of the class, while non-static methods can only be called from an instance of the class.
         You will almost always use static methods for now.
 
         Methods can also have a return type, which is the type of value that the method will return. 
-        If a method does not return a value, its return type is void. */
+        If a method does not return a value, its return type is void. 
+        It only returns a value when using a return statement. 
+        
+        The next part of a method is the name(What type of value that method takes in and that values name) */
 
         //The same can be done inside of print statements.
         /* ex: */ System.out.println(add(5, 10));

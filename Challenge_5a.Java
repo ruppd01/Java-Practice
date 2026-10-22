@@ -8,31 +8,27 @@ public class Challenge_5a {
 
         The methods you will need to create are as follows:
         - A method called inputArray that takes in a int that determines how many intergers will be inputted into an array.
-        - A method called printArray that takes in an array of integerst.
-        - A method called sumArray that takes in an array of integers and returns the sum of all the integers in the array.
-        */
+        - A method called sumArray that takes in an array of integers and returns the sum of all the integers in the array as a seperate int.
+        - A method called 
+        - A method called highLowArray that takes in an array of integers and returns the highest and lowest integers in the array as a seperate array.
+        
+        The first method, inputArray, is defined below: 
+        
+        Note: All methods will begin with public int*/
     }
     
-    public void inputArray(int numInputs) {
+    public int[] inputArray(int numInputs) {
         Scanner scnr = new Scanner(System.in);
-
-        int numElements = scnr.nextInt();   
-        for(int i = 0; i < numElements; i++){
+        int userList[] = new int[numInputs];
+   
+        for(int i = 0; i < numInputs; i++){
             userList[i] = scnr.nextInt();
         }
+        return userList;
     }
 
-    public void printArray(int[] userList) {
-        for(int i = 0; i < userList.length; i++){
-            System.out.println(userList[i]);
-        }
-    }
+    //-------enter code here-------
 
-    public int sumArray(int[] userList) {
-        int sum = 0;
-        for(int i = 0; i < userList.length; i++){
-            sum += userList[i];
-        }
-        return sum;
-    }
+    
+
 }

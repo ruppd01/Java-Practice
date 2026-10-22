@@ -15,6 +15,8 @@ public class Lesson_5b {
         lesson.lessonMethod(5); //This will call the lessonMethod from the Lesson_5a class.
         /*try running this program and see what happens. 
         You should see the output from the lessonMethod in the terminal. 
+
+        
         
         Imports are used to bring in other classes and make them available for use in the current class. 
         Imports are always placed at the top of the file before the class declaration, similar to the scanner. 

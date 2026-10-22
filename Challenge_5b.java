@@ -1,7 +1,8 @@
-import Challenge_5a.java;
+import java.util.Scanner;
 
 public class Challenge_5b {
     public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
 
         /* This is the class where you will run you code through.
         The following challenegs will requuire you to call in methods from Challenge_5a.
@@ -9,25 +10,27 @@ public class Challenge_5b {
         You have already created the necessary objects and methods. 
         Now you will have to call those methods in to perform the required tasks.
         
-        */
+        Here are the series of tasks that you will be required to do:
+        - Call in the inputArray method from Challenge_5a.
+        - Call in the sumArray method, then print out and label the sum of the array.
+        - Call in the averageArray method, then print out and label the average of the array.
+        - Call in the highLow method, printing out the highest and lowest value from the array.
+        - Call in the sumArray method to print out and label the sum of the array given from the highLow method.
+        - Call in the averageArray method to print out and label the average of the array given from the hgihLow method.
+        
+        The first task is already completed for you. */
 
-        // The first challenge will require you to call in the inputArray method from Challenge_5a.
+        Challenge_5a methods = new Challenge_5a(); //This creates an object called input from the class Challenge_5a.
+        
+        int count = scnr.nextInt();
+        int[] userList = methods.inputArray(count); //This will call the inputArray method from the Challenge_5a class.
 
-        Challenge_5a input = new Challenge_5a(); //This creates an object called input from the class Challenge_5a.
-        int[] numbers = input.inputArray(5); //This will call the inputArray method from the Challenge_5a class.
-        // The second challenge will require you to call in the printArray method from Challenge_5a.
+        //-------enter code here-------
 
-        input.printArray(numbers); //This will call the printArray method from the Challenge_5a class.
 
-        // The third challenge will require you to call in the sumArray method from Challenge_5a.
-
-        int sum = input.sumArray(); //This will call the sumArray method from the Challenge_5a class.
-        System.out.println("Sum: " + sum);
-
-        Lesson_5a lesson = new Lesson_5a(); //This creates an object called lesson from the class Lesson_5a.
-        //We can use the lesson object to access the properties and methods of the Lesson_5a class.
-
-        lesson.lessonMethod(5);
-
+        /* Unfortunately this is the end for now.
+        Lesson 6 will be available soon, but for now I need to demo this to make sure it works!
+    
+        My hope is after testing to create 2 lessons and 1 challenege every 2 weeks */
     }
 }

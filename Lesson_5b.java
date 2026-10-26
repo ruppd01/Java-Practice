@@ -16,10 +16,12 @@ public class Lesson_5b {
         /*try running this program and see what happens. 
         You should see the output from the lessonMethod in the terminal. 
 
-        
+        ------------------------------------------------------------------------
         
         Imports are used to bring in other classes and make them available for use in the current class. 
         Imports are always placed at the top of the file before the class declaration, similar to the scanner. 
+
+        We will discuss imports more when we start getting into some FRC specific programming.
         
         Once you feel comfortable with the previous concepts, you can move on to Challenge_5. */
 

@@ -23,7 +23,7 @@ public class Lesson_5b {
 
         We will discuss imports more when we start getting into some FRC specific programming.
         
-        Once you feel comfortable with the previous concepts, you can move on to Challenge_5. */
+        Once you feel comfortable with the previous concepts, you can move on to Challenge_5a. */
 
     }
 }

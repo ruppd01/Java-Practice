@@ -17,7 +17,7 @@ public class Lesson_5a {
         Lesson_5a lesson2 = new Lesson_5a();
 
         /* We can also create arrays of objects.
-        This allows us to store multiple objects(up to 20) of the same class in a single variable. */
+        This allows us to store multiple objects of the same class in a single variable. */
 
         //Here is an example of creating an array of objects.
         Lesson_5a[] lessons = new Lesson_5a[5]; //This creates an array of 5 objects from the class Lesson_5a.
